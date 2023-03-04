@@ -29,7 +29,6 @@ module.exports = () => {
       }),
 
       // Creates a manifest.json file.
-      // TODO: update manifest color
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
